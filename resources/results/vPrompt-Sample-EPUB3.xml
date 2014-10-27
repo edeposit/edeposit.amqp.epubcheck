@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha12-SNAPSHOT" date="2014-10-27">
+ <date>2014-10-27T13:18:23+01:00</date>
+ <repInfo uri="vPrompt-Sample-EPUB3.epub">
+  <created>2013-06-26T16:10:18Z</created>
+  <lastModified>2012-06-12T14:25:24Z</lastModified>
+  <format>application/epub+zip</format>
+  <version>3.0</version>
+  <status>Well-formed</status>
+  <messages>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (10-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (226-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (234-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (242-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (251-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (260-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (311-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (321-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (331-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (341-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (351-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (361-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (369-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (392-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (404-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (416-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (425-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (434-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (444-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (453-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (461-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (471-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (479-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (488-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], OEBPS/styles/stylesheet.css (497-1)</message>
+   <message>CSS-017, WARN, [CSS selector specifies absolute position.], There are 373 additional locations for this message.</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-BOLD.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (24-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-BOLDITALIC.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (29-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-ITALIC.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (34-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-REGULAR.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (39-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-SEMIBOLD.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (44-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/ACASLONPRO-SEMIBOLDITALIC.OTF refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (49-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniMTPosterComp.TTF refers to non-standard font type application/x-font-truetype.], OEBPS/styles/stylesheet.css (54-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-Bold.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (59-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-BoldCondensed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (64-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-BoldItalic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (69-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-Book.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (74-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-BookItalic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (79-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-Italic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (84-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-Poster.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (89-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-PosterCompressed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (94-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd-PosterItalic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (99-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/BodoniStd.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (104-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/FranklinGothicMed.ttf refers to non-standard font type application/x-font-truetype.], OEBPS/styles/stylesheet.css (109-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/FranklinGothicStd-Condensed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (114-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/FranklinGothicStd-ExtraCond.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (119-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/FranklinGothicStd-Roman.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (124-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-Bold.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (129-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-BoldCondensed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (134-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-BoldExtraCond.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (139-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-BoldItalic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (144-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-Condensed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (149-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-ExtraBold.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (154-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-ExtraBoldDisp.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (159-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-Italic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (164-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-Light.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (169-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-LightItalic.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (174-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-LightShadowed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (179-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-Shadowed.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (184-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-UltraBold.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (189-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd-UltraBoldCond.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (194-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/GillSansStd.otf refers to non-standard font type application/x-font-opentype.], OEBPS/styles/stylesheet.css (199-1)</message>
+   <message>CSS-007, WARN, [Font-face reference OEBPS/fonts/MathematicalPi1.ttf refers to non-standard font type application/x-font-truetype.], OEBPS/styles/stylesheet.css (204-1)</message>
+  </messages>
+  <mimeType>application/epub+zip</mimeType>
+  <properties>
+   <property>
+    <name>CharacterCount</name>
+    <values arity="Scalar" type="Long">
+     <value>16168</value>
+    </values>
+   </property>
+   <property>
+    <name>Language</name>
+    <values arity="Scalar" type="String">
+     <value>en</value>
+    </values>
+   </property>
+   <property>
+    <name>Info</name>
+    <values arity="List" type="Property">
+     <property>
+      <name>Identifier</name>
+      <values arity="Scalar" type="String">
+       <value>000000000000</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>2013-06-26T16:10:18Z</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>2012-06-12T14:25:24Z</value>
+      </values>
+     </property>
+     <property>
+      <name>Title</name>
+      <values arity="Scalar" type="String">
+       <value>Medical Terminology Systems</value>
+      </values>
+     </property>
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>vPrompt eServices</value>
+      </values>
+     </property>
+     <property>
+      <name>Date</name>
+      <values arity="Scalar" type="String">
+       <value>2013-09-19</value>
+      </values>
+     </property>
+     <property>
+      <name>Publisher</name>
+      <values arity="Scalar" type="String">
+       <value>vPrompt eServices</value>
+      </values>
+     </property>
+     <property>
+      <name>Rights</name>
+      <values arity="Scalar" type="String">
+       <value>Copyright © 2014 by vPrompt eServices</value>
+      </values>
+     </property>
+    </values>
+   </property>
+   <property>
+    <name>Fonts</name>
+    <values arity="List" type="Property">
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-BOLD</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-BOLDITALIC</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-ITALIC</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-REGULAR</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-SEMIBOLD</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>ACASLONPRO-SEMIBOLDITALIC</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniMTPosterComp</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-BoldCondensed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-BoldItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-Book</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-BookItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-Italic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-Poster</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-PosterCompressed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd-PosterItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>BodoniStd</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>FranklinGothicMed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>FranklinGothicStd-Condensed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>FranklinGothicStd-ExtraCond</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>FranklinGothicStd-Roman</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-BoldCondensed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-BoldExtraCond</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-BoldItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-Condensed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-ExtraBold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-ExtraBoldDisp</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-Italic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-Light</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-LightItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-LightShadowed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-Shadowed</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-UltraBold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd-UltraBoldCond</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>GillSansStd</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+     <property>
+      <name>Font</name>
+      <values arity="List" type="Property">
+       <property>
+        <name>FontName</name>
+        <values arity="Scalar" type="String">
+         <value>MathematicalPi1</value>
+        </values>
+       </property>
+       <property>
+        <name>FontFile</name>
+        <values arity="Scalar" type="Boolean">
+         <value>false</value>
+        </values>
+       </property>
+      </values>
+     </property>
+    </values>
+   </property>
+   <property>
+    <name>hasAudio</name>
+    <values arity="Scalar" type="Boolean">
+     <value>true</value>
+    </values>
+   </property>
+   <property>
+    <name>hasScripts</name>
+    <values arity="Scalar" type="Boolean">
+     <value>true</value>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>

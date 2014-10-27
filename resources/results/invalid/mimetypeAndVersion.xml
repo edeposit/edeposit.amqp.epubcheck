@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha12-SNAPSHOT" date="2014-10-27">
+ <date>2014-10-27T13:06:04+01:00</date>
+ <repInfo uri="mimetypeAndVersion.epub">
+  <created>2011-10-10T09:12:26Z</created>
+  <format>application/octet-stream</format>
+  <status>Not well-formed</status>
+  <messages>
+   <message>OPF-019, FATAL, [Spine tag was not found in the OPF file.], OEBPS/content.opf</message>
+   <message>PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], mimetypeAndVersion.epub</message>
+   <message>OPF-024, ERROR, [Found unknown ePub version 0.0.], mimetypeAndVersion.epub</message>
+   <message>OPF-001, ERROR, [There was an error when parsing the ePub version: Version attribute not found.], OEBPS/content.opf</message>
+  </messages>
+  <properties>
+   <property>
+    <name>Info</name>
+    <values arity="List" type="Property">
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>2011-10-10T09:12:26Z</value>
+      </values>
+     </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>
