@@ -1,4 +1,4 @@
-(defproject edeposit.amqp.epubcheck "0.1.0-SNAPSHOT"
+(defproject edeposit.amqp.epubcheck "0.1.0"
   :description "Wrapper aroung epubcheck. With AMQP and cli."
   :url "https://github.com/jstavel/edeposit.amqp.epubcheck"
   :license {:name "Eclipse Public License"
@@ -17,10 +17,15 @@
                  [org.clojure/tools.namespace "0.2.9"]
                  [me.raynes/fs "1.4.6"]
                  [reloaded.repl "0.1.0"]
+                 [org.clojure/tools.nrepl "0.2.7"]
                  [byte-streams "0.2.0-alpha8"]
                  ]
+  :main edeposit.amqp.epubcheck.main
+  :aot [edeposit.amqp.epubcheck.main]
   :profiles {:dev {:plugins [[com.jakemccrary/lein-test-refresh "0.3.10"]
                              [lein-ubersource "0.1.1"]
-                             ]}}
-  :main edeposit.amqp.epubcheck.main
+                             ]}
+             :uberjar {:aot :all}
+             }
+  :deploy-repositories [["releases" :clojars]]
   )
