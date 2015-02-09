@@ -11,8 +11,6 @@
             [com.stuartsierra.component :as component]
             [reloaded.repl :refer [system init start stop go reset]]
             [edeposit.amqp.epubcheck.core :refer [validate]]
-            [clojure.tools.namespace.repl :refer [refresh]]
-            [clojure.tools.nrepl.server :refer [start-server]]
             )
   (:import  [com.adobe.epubcheck.tool EpubChecker]
             [java.io File]
@@ -33,7 +31,6 @@
       (System/exit 0)
       )
     (when (:amqp options)
-      ;;(defonce server (start-server :port 12345))
       (reloaded.repl/set-init! prod-system)
       (go)
       )
