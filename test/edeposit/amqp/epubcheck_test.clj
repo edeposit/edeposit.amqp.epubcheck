@@ -52,3 +52,29 @@
       )
     )
   )
+
+(deftest epub-file-test-04
+  (let [fname "resources/invalid/no-existing.bin"
+        result (core/validate fname)
+        ]
+    (testing "check not existing file"
+      (is (= (:isWellFormedEPUB2 result) false))
+      (is (= (:isWellFormedEPUB3 result) false))
+      (is (:xml result) "")
+      (is (.contains (.toString (:validationMessages result)) 
+                     "javax.xml.stream.XMLStreamException: ParseError"))
+      )
+    )
+  )
+
+(deftest epub-file-test-05
+  (let [fname "resources/invalid/data.epub"
+        result (core/validate fname)
+        ]
+    (testing "check valid epub3 file and validation messages"
+      (is (= (:isWellFormedEPUB2 result) false))
+      (is (= (:isWellFormedEPUB3 result) true))
+      (is (:xml result) "")
+      )
+    )
+  )
