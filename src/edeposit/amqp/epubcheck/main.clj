@@ -8,7 +8,6 @@
             [clojure.pprint :as pp]
             [environ.core :refer [env]]
             [edeposit.amqp.epubcheck.systems :refer [prod-system]]
-            [com.stuartsierra.component :as component]
             [reloaded.repl :refer [system init start stop go reset]]
             [edeposit.amqp.epubcheck.core :refer [validate]]
             )
@@ -36,4 +35,5 @@
       )
     ;;(println (xml/indent-str (validate (io/file (:file options)))))
     )
+
   )

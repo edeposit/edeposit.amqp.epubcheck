@@ -1,4 +1,4 @@
-{:rabbit-uri "amqp://guest:guest@localhost/epubcheck"
+{:epubcheck-amqp-uri "amqp://guest:guest@localhost/epubcheck"
  :epubcheck-amqp-exchange "validate"
  :epubcheck-amqp-qname "validator"
  :nrepl-port 12345
