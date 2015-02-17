@@ -1,15 +1,18 @@
 (ns edeposit.amqp.epubcheck-test
   (:require [clojure.java.io :as io]
             [clojure.data.xml :as x]
+            [clojure.zip :as zip]
             [clojure.data.zip.xml :as xml]
             [edeposit.amqp.epubcheck.core :as core]
-            [clojure.pprint :as pp]
+            [edeposit.amqp.epubcheck.handlers :as handlers]
+            [clojure.string :as s]
             )
   (:use clojure.test))
 
 (deftest epub-file-test-01
   (let [fname "resources/vPrompt-Sample-EPUB2.epub"
         result (core/validate fname)
+        xmldata (-> result :xml x/parse-str zip/xml-zip)
         ]
     (testing "check valid epub2 file and its metadata"
       (is (= (:isWellFormedEPUB2 result) true))
@@ -17,6 +20,12 @@
       (is (.startsWith (:xml result) "<?xml version"))
       (is (.contains (:xml result) "<jhove"))
       (is (= (:validationMessages result) ()))
+      )
+    (testing "check xml with jhove"
+      (is (= (xml/xml1-> xmldata (xml/attr :name)) "epubcheck"))
+      (is (= (xml/xml1-> xmldata :repInfo :format xml/text) "application/epub+zip"))
+      (is (= (xml/xml1-> xmldata :repInfo :mimeType xml/text) "application/epub+zip"))
+      (is (= (xml/xml1-> xmldata :repInfo :status xml/text) "Well-formed"))
       )
     )
   )
@@ -75,6 +84,27 @@
       (is (= (:isWellFormedEPUB2 result) false))
       (is (= (:isWellFormedEPUB3 result) true))
       (is (:xml result) "")
+      )
+    )
+  )
+
+(deftest handlers-test-01
+  (let [fname "resources/vPrompt-Sample-EPUB2.epub"
+        file (io/file fname)
+        metadata (read-string (slurp "resources/request-metadata.clj"))
+        payload (.getBytes (slurp "resources/request-payload.bin"))
+        result (handlers/parse-and-validate metadata payload)
+        xmldata (-> result (:xml) x/parse-str zip/xml-zip)
+        ]
+
+    (testing "check valid epub3 file and validation messages"
+      (is (= (:isWellFormedEPUB2 result) true))
+      (is (= (:isWellFormedEPUB3 result) false))
+      (is (empty? (:validationMessages result)))
+      (is (= (xml/xml1-> xmldata (xml/attr :name)) "epubcheck"))
+      (is (= (xml/xml1-> xmldata :repInfo :format xml/text) "application/epub+zip"))
+      (is (= (xml/xml1-> xmldata :repInfo :mimeType xml/text) "application/epub+zip"))
+      (is (= (xml/xml1-> xmldata :repInfo :status xml/text) "Well-formed"))
       )
     )
   )

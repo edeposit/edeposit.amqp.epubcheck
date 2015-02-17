@@ -1,5 +1,5 @@
 # edeposit.amqp.epubcheck
-![travis status](https://travis-ci.org/jstavel/edeposit.amqp.epubcheck.png)
+![travis status](https://travis-ci.org/edeposit/edeposit.amqp.epubcheck.png)
 
 A Clojure library designed as wrapper for EPUBCheck project.
 

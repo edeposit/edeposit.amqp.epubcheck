@@ -7,6 +7,7 @@
             [clojure.reflect :as r]
             [clojure.pprint :as pp]
             [environ.core :refer [env]]
+            [clojure.tools.nrepl.server :refer (start-server)]
             [edeposit.amqp.epubcheck.systems :refer [prod-system]]
             [reloaded.repl :refer [system init start stop go reset]]
             [edeposit.amqp.epubcheck.core :refer [validate]]
@@ -18,22 +19,24 @@
   )
 
 (defn -main [& args]
-
-  (let [ [options args banner] (cli/cli args
-                                        [ "-f" "--file" :default "resources/vPrompt-Sample-EPUB2.epub"]
-                                        [ "--amqp" :default false :flag true]
-                                        [ "-h" "--help" :default false :flag true]
-                                        )
+  (let [ [options args banner] 
+         (cli/cli args
+                  [ "-f" "--file"]
+                  [ "--amqp" :default false :flag true]
+                  [ "-h" "--help" :default false :flag true]
+                  )
          ]
     (when (:help options)
       (println banner)
       (System/exit 0)
       )
     (when (:amqp options)
+      (defonce server (start-server :port 12345))
       (reloaded.repl/set-init! prod-system)
       (go)
       )
-    ;;(println (xml/indent-str (validate (io/file (:file options)))))
+    (when (:file options)
+      (println (xml/indent-str (validate (io/file (:file options)))))
+      )
     )
-
   )

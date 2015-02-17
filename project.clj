@@ -9,7 +9,6 @@
                  [org.clojure/data.zip "0.1.1"]
                  [clj-time "0.8.0"]
                  [org.clojure/data.json "0.2.5"]
-                 [org.clojure/data.codec "0.1.0"]
                  [org.idpf/epubcheck "4.0.0-alpha11"]
                  [com.novemberain/langohr "3.0.1"]
                  [environ "1.0.0"]
@@ -17,14 +16,12 @@
                  [me.raynes/fs "1.4.6"]
                  [reloaded.repl "0.1.0"]
                  [org.clojure/tools.nrepl "0.2.7"]
-                 [byte-streams "0.2.0-alpha8"]
-                 [quickie "0.3.6"]
+                 [commons-codec/commons-codec "1.10"]
                  ]
   :main edeposit.amqp.epubcheck.main
   :aot [edeposit.amqp.epubcheck.main]
   :profiles {:dev {:plugins [
                              [quickie "0.3.6"]
-                             ;[com.jakemccrary/lein-test-refresh "0.3.10"]
                              [lein-ubersource "0.1.1"]
                              ]}
              :uberjar {:aot :all}
