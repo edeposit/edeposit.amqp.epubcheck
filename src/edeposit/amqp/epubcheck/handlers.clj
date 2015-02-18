@@ -7,6 +7,7 @@
             [me.raynes.fs :as fs]
             [clojure.data.json :as json]
             [clojure.java.io :as io]
+            [clojure.tools.logging :as log]
             )
   (:import [org.apache.commons.codec.binary Base64])
   )
@@ -30,12 +31,13 @@
   )
 
 (defn handle-delivery [ch exchange metadata ^bytes payload]
-  (println "handle delivery")
+  (log/info "new message arrived")
   (defn send-response [msg]
     (lb/publish ch exchange "response" msg 
                 {:UUID (:UUID metadata)
                  :content-type "edeposit/epubcheck-response"
                  :content-encoding "application/json"
+                 :persistent true
                  }
                 )
     )
@@ -44,4 +46,5 @@
       (send-response)
       )
   (lb/ack ch (:delivery-tag metadata))
+  (log/info "message ack")
   )

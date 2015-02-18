@@ -7,6 +7,7 @@
             [langohr.exchange  :as lx]
             [langohr.channel :as lch]
             [edeposit.amqp.epubcheck.handlers :refer [handle-delivery]]
+            [clojure.tools.logging :as log]
             )
   )
 
@@ -17,15 +18,15 @@
 (defrecord EPubCheck-AMQP [uri exchange qname channel consumer connection]
   component/Lifecycle
   (start [this]
-    (println "starting EPubCheck AMQP client")
+    (log/info "starting EPubCheck AMQP client")
     (let [ handler (fn [ch metadata payload] 
                      (handle-delivery ch exchange metadata payload)
                      )
           conn (lcor/connect {:uri uri})
           ch (lch/open conn)  ]
-      (println "declaring topic exchange: " exchange)
+      (log/info "declaring topic exchange: " exchange)
       (lx/topic ch exchange {:durable true})
-      (lq/declare ch qname {:durable true})
+      (lq/declare ch qname {:durable true :auto-delete false})
       (lq/bind ch qname exchange {:routing-key "request"})
       (let [consumer (lc/create-default ch {:handle-delivery-fn handler})]
         (lb/consume ch qname consumer {:auto-ack false})
@@ -33,7 +34,7 @@
     )
   
   (stop [this]
-    (println "stopping EPubCheck AMQP client")
+    (log/info "stopping EPubCheck AMQP client")
     (lcor/close channel)
     (lcor/close connection)
     this

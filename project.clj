@@ -17,6 +17,7 @@
                  [reloaded.repl "0.1.0"]
                  [org.clojure/tools.nrepl "0.2.7"]
                  [commons-codec/commons-codec "1.10"]
+                 [org.clojure/tools.logging "0.3.1"]
                  ]
   :main edeposit.amqp.epubcheck.main
   :aot [edeposit.amqp.epubcheck.main]
