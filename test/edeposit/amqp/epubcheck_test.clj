@@ -108,3 +108,19 @@
       )
     )
   )
+
+(deftest response-test-01
+  (let [fname "resources/vPrompt-Sample-EPUB2.epub"
+        file (io/file fname)
+        metadata (read-string (slurp "resources/request-metadata.clj"))
+        payload (.getBytes (slurp "resources/request-payload.bin"))
+        result (handlers/parse-and-validate metadata payload)
+        ]
+    
+    (testing (format "response copies UUID at headers")
+      (let [response-properties (handlers/response-properties metadata)]
+        (is (= (-> response-properties :headers (get "UUID")) (-> metadata :headers (get "UUID"))))
+        )
+      )
+    )
+  )

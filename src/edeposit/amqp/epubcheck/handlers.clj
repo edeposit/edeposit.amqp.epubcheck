@@ -30,16 +30,18 @@
     )
   )
 
+(defn response-properties [metadata]
+  {:headers {"UUID" (-> metadata :headers (get "UUID"))}
+   :content-type "edeposit/epubcheck-response"
+   :content-encoding "application/json"
+   :persistent true
+   }
+  )
+
 (defn handle-delivery [ch exchange metadata ^bytes payload]
   (log/info "new message arrived")
   (defn send-response [msg]
-    (lb/publish ch exchange "response" msg 
-                {:UUID (:UUID metadata)
-                 :content-type "edeposit/epubcheck-response"
-                 :content-encoding "application/json"
-                 :persistent true
-                 }
-                )
+    (lb/publish ch exchange "response" msg (response-properties metadata))
     )
   (-> (parse-and-validate metadata payload)
       (json/write-str)
